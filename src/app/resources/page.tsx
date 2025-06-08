@@ -11,7 +11,7 @@ type Video = {
 
 export default function VideosPage() {
   const [videos, setVideos] = useState<Video[]>([]);
-  const [isSubscribed, setIsSubscribed] = useState(false); // Replace with real auth
+  const [isSubscribed] = useState(false); // Replace with real auth
 
   useEffect(() => {
     fetch('/api/mux/videos')
