@@ -124,6 +124,7 @@ const ShopSection: React.FC = () => {
                 key={plan.id}
                 className="bg-white rounded-2xl shadow-lg p-6 flex flex-col justify-between hover:shadow-xl transition"
               >
+                {/* cc */}
                 <div>
                   <h4 className="text-xl font-semibold text-gray-800">
                     {plan.name}
