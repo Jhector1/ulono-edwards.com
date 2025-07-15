@@ -8,20 +8,20 @@ export default function BioPage() {
       {/* Hero Section */}
       <section
         className="relative bg-cover bg-center h-screen"
-        style={{ backgroundImage: 'url(/images/book3.jpg)' }}
+        style={{ backgroundImage: `url('/images/hero.jpg')` }}
       >
         {/* <Image alt="jdjd" fill src='/images/book3.jpg'/> */}
-        <div className="absolute inset-0 bg-black bg-opacity-50" />
+        {/* <div className="absolute inset-0 bg-black bg-opacity-50" /> */}
         <div className="relative container mx-auto px-4 py-32 text-center text-white">
           <h1 className="text-5xl font-bold mb-4">
             Uloño<br />
-            <span className="text-yellow-300">Geolinguistic Praxis Services</span>
+            <span className="text-[#E85E2D]">Geolinguistic Praxis Services</span>
           </h1>
           <p className="text-xl mb-8">
             Transmitting Intergenerational Knowledge Across the Globe
           </p>
           <Link href="#contact">
-            <div  className="px-6 py-3 bg-yellow-500 hover:bg-yellow-600 rounded-full font-semibold">
+            <div  className="px-6 py-3 bg-[#E85E2D] hover:bg-yellow-600 rounded-full font-semibold">
               Book a Consultation
             </div>
           </Link>
@@ -88,7 +88,7 @@ export default function BioPage() {
           Book Dr. Davis for consultations, trainings, and speaking engagements worldwide.
         </p>
         <Link href="/contact">
-          <div className="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-full font-semibold">
+          <div className="px-8 py-4 bg-[#E85E2D] hover:bg-[#E85E2D] text-white rounded-full font-semibold">
             Contact Now
           </div>
         </Link>

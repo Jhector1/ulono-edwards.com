@@ -23,7 +23,7 @@ export function Navbar() {
           {/* Brand/Logo */}
           <div className="flex-shrink-0">
             <Link href="/">
-              <span className="text-2xl font-bold text-indigo-600 cursor-pointer">
+              <span className="text-2xl font-bold text-[#E85E2D] cursor-pointer">
                 Uloño
               </span>
             </Link>
@@ -36,7 +36,7 @@ export function Navbar() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="text-gray-700 hover:text-indigo-600 font-medium"
+                className="text-gray-700 hover:text-[#E85E2D] font-medium"
               >
                 {item.label}
               </Link>

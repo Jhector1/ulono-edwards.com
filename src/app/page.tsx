@@ -4,7 +4,8 @@
 import React from "react";
 // import { Button } from '@/components/ui/button';
 import { motion } from "framer-motion";
-import Link from "next/link";
+// import Link from "next/link";
+import Image from "next/image";
 
 export default function HomePage() {
   return (
@@ -16,7 +17,7 @@ export default function HomePage() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          Welcome to <span className="text-rose-500">Uloño GPS</span>
+          Welcome to <span className="text-[#E85E2D]">Uloño GPS</span>
         </motion.h1>
 
         <motion.p
@@ -40,7 +41,14 @@ export default function HomePage() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.8, duration: 0.8 }}
         >
-          <Link href="/videos">
+  <div className="relative w-[32vw] h-[32vw]">
+    <Image
+      src="/images/ulono_gps.png"
+      alt="Ulono Gps Logo"
+      fill
+      className="object-contain"
+    />
+  </div>          {/* <Link href="/videos">
             <button className="px-6 py-3 text-lg rounded-xl bg-rose-500 hover:bg-rose-600 transition shadow-md">
               Watch Preview
             </button>
@@ -49,7 +57,7 @@ export default function HomePage() {
             <button className="px-6 py-3 text-lg rounded-xl bg-white text-black hover:bg-gray-200 transition shadow-md">
               Book Dr. Davis
             </button>
-          </Link>
+          </Link> */}
         </motion.div>
       </section>
 
