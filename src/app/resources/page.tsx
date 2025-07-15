@@ -2,6 +2,7 @@
 
 import { useEffect, useState, useRef } from 'react';
 import MuxPlayer from '@mux/mux-player-react';
+import AuthModal from '../components/AuthModal';
 
 type Video = {
   id: string;
@@ -21,6 +22,8 @@ export default function VideosPage() {
 
   return (
     <div className="min-h-screen bg-gray-100 p-10">
+            <AuthModal />
+
       <h1 className="text-3xl font-bold mb-6">All Uploaded Videos</h1>
       <div className="grid gap-8 md:grid-cols-2">
         {videos.map(video => (

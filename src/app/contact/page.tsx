@@ -39,7 +39,7 @@ export default function ContactForm() {
     <section className="bg-white py-12">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-xl">
         <h2 className="text-3xl font-semibold text-gray-800 text-center mb-6">
-          Get in Touch
+          Contact Us
         </h2>
 
         <form

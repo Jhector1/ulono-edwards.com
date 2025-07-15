@@ -16,7 +16,7 @@ export default function HomePage() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          Welcome to <span className="text-rose-500">Ulono</span>
+          Welcome to <span className="text-rose-500">Uloño GPS</span>
         </motion.h1>
 
         <motion.p
@@ -25,9 +25,14 @@ export default function HomePage() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.4, duration: 0.8 }}
         >
-          Empowering communities through truth, history, and healing. Watch
-          powerful stories, book Dr. Davis, or explore mentorship programs.
+          Empowering the world through intergenerational knowledge. 
+          Book Dr. Davis for consulting, lectures, and heritiage program development.
+          <br/>
+<br/>
+          Among the Ovimbundu people of Angola, Uloño refers to both intergenerational knowledge and the source from which tributaries of a river originate. 
         </motion.p>
+
+
 
         <motion.div
           className="flex justify-center gap-6"
@@ -64,18 +69,17 @@ export default function HomePage() {
               Keynote Presentations
             </h3>
             <p className="text-gray-400 text-sm">
-              Experience dynamic keynotes rooted in lived experience and
-              data-driven equity research.
+              Experience dynamic keynotes that make anthropological analysis releavant to daily life.
             </p>
           </motion.div>
           <motion.div
             whileHover={{ scale: 1.05 }}
             className="p-8 bg-gray-800 rounded-2xl shadow"
           >
-            <h3 className="text-xl font-semibold mb-2">Mentorship Programs</h3>
+            <h3 className="text-xl font-semibold mb-2">Mentorship, Curriculum Development, and Consulting</h3>
             <p className="text-gray-400 text-sm">
-              Explore youth mentorship, educator coaching, and anti-racist
-              parent advocacy support.
+              Develop youth mentorship and educator coaching for systems-level change
+            
             </p>
           </motion.div>
           <motion.div
@@ -84,8 +88,7 @@ export default function HomePage() {
           >
             <h3 className="text-xl font-semibold mb-2">Partner With Us</h3>
             <p className="text-gray-400 text-sm">
-              Promote your mission with ulono&apos;s platform and reach over 2
-              million people monthly.
+              Promote your mission with Uloño GPS, Inc. to reach a global audience.
             </p>
           </motion.div>
         </div>

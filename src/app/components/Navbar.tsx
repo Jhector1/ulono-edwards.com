@@ -10,9 +10,9 @@ export function Navbar() {
   const menuItems = [
     { label: "HOME", href: "/" },
     { label: "BIO", href: "/bio" },
-    { label: "SERVICES", href: "/services" },
-    { label: "RESOURCES", href: "/resources" },
-    { label: "SHOP", href: "/shop" },
+    // { label: "SERVICES", href: "/services" },
+    // { label: "RESOURCES", href: "/resources" },
+    // { label: "SHOP", href: "/shop" },
     { label: "CONTACT", href: "/contact" },
   ];
 
